@@ -395,17 +395,26 @@ body {
   }
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
   .wrapper .content .main {
     max-width: 900px;
     width: 100%;
     padding: 0 1.5rem;
   }
+  
 }
 
 .wrapper .content .main .italic {
   font-family: "gtfri";
 }
+
 
 .wrapper .content .main .underline {
   /* Fake underline but same as xd design */
@@ -433,3 +442,11 @@ body {
   margin-right: 0.65rem;
 }
 /*# sourceMappingURL=main.css.map */
+
+.content {
+  display: flex;
+  align-items:center;
+}
+.photo-animation {
+  transform: translateY(-65px);
+}
